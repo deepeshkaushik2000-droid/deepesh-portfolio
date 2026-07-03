@@ -2350,37 +2350,37 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
-.portfolio-details {
+.polaroides {
   --section-spacing: 2.5rem;
 }
 
-.portfolio-details .portfolio-details-media {
+.polaroides .polaroides-media {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-media .main-image {
+.polaroides .polaroides-media .main-image {
   margin-bottom: 1rem;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider {
+.polaroides .polaroides-media .main-image .polaroides-slider {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-wrapper {
+.polaroides .polaroides-media .main-image .polaroides-slider .swiper-wrapper {
   height: auto !important;
 }
 
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-slide img {
+.polaroides .polaroides-media .main-image .polaroides-slider .swiper-slide img {
   aspect-ratio: 3/2;
   object-fit: cover;
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-next,
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-prev {
+.polaroides .polaroides-media .main-image .polaroides-slider .swiper-button-next,
+.polaroides .polaroides-media .main-image .polaroides-slider .swiper-button-prev {
   background-color: var(--contrast-color);
   width: 40px;
   height: 40px;
@@ -2388,24 +2388,24 @@ section,
   transition: all 0.3s ease;
 }
 
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-next:after,
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-prev:after {
+.polaroides .polaroides-media .main-image .polaroides-slider .swiper-button-next:after,
+.polaroides .polaroides-media .main-image .polaroides-slider .swiper-button-prev:after {
   font-size: 16px;
   color: var(--accent-color);
   font-weight: bold;
 }
 
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-next:hover,
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-prev:hover {
+.polaroides .polaroides-media .main-image .polaroides-slider .swiper-button-next:hover,
+.polaroides .polaroides-media .main-image .polaroides-slider .swiper-button-prev:hover {
   background-color: var(--accent-color);
 }
 
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-next:hover:after,
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-prev:hover:after {
+.polaroides .polaroides-media .main-image .polaroides-slider .swiper-button-next:hover:after,
+.polaroides .polaroides-media .main-image .polaroides-slider .swiper-button-prev:hover:after {
   color: var(--contrast-color);
 }
 
-.portfolio-details .portfolio-details-media .thumbnail-grid img {
+.polaroides .polaroides-media .thumbnail-grid img {
   height: 80px;
   object-fit: cover;
   border-radius: 8px;
@@ -2414,19 +2414,19 @@ section,
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-.portfolio-details .portfolio-details-media .thumbnail-grid img:hover {
+.polaroides .polaroides-media .thumbnail-grid img:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-details .portfolio-details-media .tech-stack-badges {
+.polaroides .polaroides-media .tech-stack-badges {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 1.5rem;
 }
 
-.portfolio-details .portfolio-details-media .tech-stack-badges span {
+.polaroides .polaroides-media .tech-stack-badges span {
   display: inline-block;
   padding: 6px 12px;
   font-size: 13px;
@@ -2437,26 +2437,26 @@ section,
   transition: all 0.3s ease;
 }
 
-.portfolio-details .portfolio-details-media .tech-stack-badges span:hover {
+.polaroides .polaroides-media .tech-stack-badges span:hover {
   background-color: color-mix(in srgb, var(--heading-color), transparent 70%);
   transform: translateY(-2px);
 }
 
-.portfolio-details .portfolio-details-content {
+.polaroides .polaroides-content {
   padding: 0 0 0 2rem;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.portfolio-details .portfolio-details-content .project-meta {
+.polaroides .polaroides-content .project-meta {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 1.5rem;
 }
 
-.portfolio-details .portfolio-details-content .project-meta .badge-wrapper .project-badge {
+.polaroides .polaroides-content .project-meta .badge-wrapper .project-badge {
   display: inline-block;
   padding: 8px 16px;
   background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
@@ -2466,24 +2466,24 @@ section,
   font-size: 14px;
 }
 
-.portfolio-details .portfolio-details-content .project-meta .date-client {
+.polaroides .polaroides-content .project-meta .date-client {
   display: flex;
   gap: 1.5rem;
 }
 
-.portfolio-details .portfolio-details-content .project-meta .date-client .meta-item {
+.polaroides .polaroides-content .project-meta .date-client .meta-item {
   display: flex;
   align-items: center;
   font-size: 14px;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
-.portfolio-details .portfolio-details-content .project-meta .date-client .meta-item i {
+.polaroides .polaroides-content .project-meta .date-client .meta-item i {
   margin-right: 6px;
   color: var(--accent-color);
 }
 
-.portfolio-details .portfolio-details-content .project-title {
+.polaroides .polaroides-content .project-title {
   font-size: 2.2rem;
   margin-bottom: 1rem;
   font-weight: 700;
@@ -2491,45 +2491,45 @@ section,
   color: var(--heading-color);
 }
 
-.portfolio-details .portfolio-details-content .project-website {
+.polaroides .polaroides-content .project-website {
   display: flex;
   align-items: center;
   margin-bottom: 1.5rem;
 }
 
-.portfolio-details .portfolio-details-content .project-website i {
+.polaroides .polaroides-content .project-website i {
   font-size: 22px;
   color: var(--accent-color);
   margin-right: 8px;
 }
 
-.portfolio-details .portfolio-details-content .project-website a {
+.polaroides .polaroides-content .project-website a {
   font-weight: 500;
   transition: all 0.3s;
 }
 
-.portfolio-details .portfolio-details-content .project-website a:hover {
+.polaroides .polaroides-content .project-website a:hover {
   letter-spacing: 0.5px;
 }
 
-.portfolio-details .portfolio-details-content .project-overview {
+.polaroides .polaroides-content .project-overview {
   margin-bottom: var(--section-spacing);
 }
 
-.portfolio-details .portfolio-details-content .project-overview .lead {
+.polaroides .polaroides-content .project-overview .lead {
   font-size: 1.1rem;
   line-height: 1.7;
   color: color-mix(in srgb, var(--default-color), transparent 15%);
   margin-bottom: 1.5rem;
 }
 
-.portfolio-details .portfolio-details-content .project-overview .project-accordion .accordion-item {
+.polaroides .polaroides-content .project-overview .project-accordion .accordion-item {
   border: none;
   background: none;
   margin-bottom: 10px;
 }
 
-.portfolio-details .portfolio-details-content .project-overview .project-accordion .accordion-item .accordion-header .accordion-button {
+.polaroides .polaroides-content .project-overview .project-accordion .accordion-item .accordion-header .accordion-button {
   padding: 1rem;
   font-weight: 600;
   font-size: 1rem;
@@ -2539,7 +2539,7 @@ section,
   box-shadow: none;
 }
 
-.portfolio-details .portfolio-details-content .project-overview .project-accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+.polaroides .polaroides-content .project-overview .project-accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
   background-color: var(--surface-color);
   color: var(--accent-color);
   border-bottom-left-radius: 0 !important;
@@ -2547,56 +2547,56 @@ section,
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
 }
 
-.portfolio-details .portfolio-details-content .project-overview .project-accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) i {
+.polaroides .polaroides-content .project-overview .project-accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) i {
   color: var(--accent-color);
 }
 
-.portfolio-details .portfolio-details-content .project-overview .project-accordion .accordion-item .accordion-header .accordion-button::after {
+.polaroides .polaroides-content .project-overview .project-accordion .accordion-item .accordion-header .accordion-button::after {
   background-size: 14px;
   width: 14px;
   height: 14px;
 }
 
-.portfolio-details .portfolio-details-content .project-overview .project-accordion .accordion-item .accordion-header .accordion-button i {
+.polaroides .polaroides-content .project-overview .project-accordion .accordion-item .accordion-header .accordion-button i {
   font-size: 1.1rem;
 }
 
-.portfolio-details .portfolio-details-content .project-overview .project-accordion .accordion-item .accordion-body {
+.polaroides .polaroides-content .project-overview .project-accordion .accordion-item .accordion-body {
   padding: 1rem;
   background-color: var(--surface-color);
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
-.portfolio-details .portfolio-details-content .project-overview .project-accordion .accordion-item .accordion-body p {
+.polaroides .polaroides-content .project-overview .project-accordion .accordion-item .accordion-body p {
   margin-bottom: 0;
   color: color-mix(in srgb, var(--default-color), transparent 25%);
   line-height: 1.6;
 }
 
-.portfolio-details .portfolio-details-content .project-features {
+.polaroides .polaroides-content .project-features {
   margin-bottom: var(--section-spacing);
 }
 
-.portfolio-details .portfolio-details-content .project-features h3 {
+.polaroides .polaroides-content .project-features h3 {
   display: flex;
   align-items: center;
   font-size: 1.25rem;
   margin-bottom: 1.2rem;
 }
 
-.portfolio-details .portfolio-details-content .project-features h3 i {
+.polaroides .polaroides-content .project-features h3 i {
   margin-right: 10px;
   color: var(--accent-color);
   font-size: 1.1em;
 }
 
-.portfolio-details .portfolio-details-content .project-features .feature-list {
+.polaroides .polaroides-content .project-features .feature-list {
   list-style: none;
   padding-left: 0;
 }
 
-.portfolio-details .portfolio-details-content .project-features .feature-list li {
+.polaroides .polaroides-content .project-features .feature-list li {
   display: flex;
   align-items: center;
   padding: 8px 0;
@@ -2604,20 +2604,20 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 15%);
 }
 
-.portfolio-details .portfolio-details-content .project-features .feature-list li i {
+.polaroides .polaroides-content .project-features .feature-list li i {
   color: var(--accent-color);
   margin-right: 10px;
   font-size: 1.1em;
 }
 
-.portfolio-details .portfolio-details-content .cta-buttons {
+.polaroides .polaroides-content .cta-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: auto;
 }
 
-.portfolio-details .portfolio-details-content .cta-buttons .btn-view-project {
+.polaroides .polaroides-content .cta-buttons .btn-view-project {
   padding: 12px 28px;
   background-color: var(--accent-color);
   color: var(--contrast-color);
@@ -2626,13 +2626,13 @@ section,
   transition: all 0.3s ease;
 }
 
-.portfolio-details .portfolio-details-content .cta-buttons .btn-view-project:hover {
+.polaroides .polaroides-content .cta-buttons .btn-view-project:hover {
   background-color: color-mix(in srgb, var(--accent-color), black 15%);
   transform: translateY(-3px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-details .portfolio-details-content .cta-buttons .btn-next-project {
+.polaroides .polaroides-content .cta-buttons .btn-next-project {
   padding: 12px 28px;
   background-color: color-mix(in srgb, var(--heading-color), transparent 90%);
   color: var(--heading-color);
@@ -2644,51 +2644,51 @@ section,
   gap: 8px;
 }
 
-.portfolio-details .portfolio-details-content .cta-buttons .btn-next-project i {
+.polaroides .polaroides-content .cta-buttons .btn-next-project i {
   transition: transform 0.3s ease;
 }
 
-.portfolio-details .portfolio-details-content .cta-buttons .btn-next-project:hover {
+.polaroides .polaroides-content .cta-buttons .btn-next-project:hover {
   background-color: color-mix(in srgb, var(--heading-color), transparent 80%);
 }
 
-.portfolio-details .portfolio-details-content .cta-buttons .btn-next-project:hover i {
+.polaroides .polaroides-content .cta-buttons .btn-next-project:hover i {
   transform: translateX(3px);
 }
 
 @media (max-width: 1199.98px) {
-  .portfolio-details .portfolio-details-content {
+  .polaroides .polaroides-content {
     padding-left: 1rem;
   }
 }
 
 @media (max-width: 991.98px) {
-  .portfolio-details .portfolio-details-content {
+  .polaroides .polaroides-content {
     padding: 2rem 0 0 0;
   }
 
-  .portfolio-details .portfolio-details-content .cta-buttons {
+  .polaroides .polaroides-content .cta-buttons {
     margin-top: 2rem;
   }
 }
 
 @media (max-width: 767.98px) {
-  .portfolio-details .project-meta {
+  .polaroides .project-meta {
     flex-direction: column;
     gap: 1rem;
   }
 
-  .portfolio-details .project-meta .date-client {
+  .polaroides .project-meta .date-client {
     flex-direction: column;
     gap: 0.5rem;
   }
 
-  .portfolio-details .cta-buttons {
+  .polaroides .cta-buttons {
     flex-direction: column;
     width: 100%;
   }
 
-  .portfolio-details .cta-buttons a {
+  .polaroides .cta-buttons a {
     width: 100%;
     text-align: center;
   }
